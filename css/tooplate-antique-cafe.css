@@ -143,7 +143,12 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 
 @media (max-width: 639px) {
     .parallax-window {
-        min-height: 600px;
+        min-height: 100vh;
+	 background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
      
     }
 }
